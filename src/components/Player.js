@@ -4,8 +4,8 @@ import { useEffect, useRef } from "react";
 import { Vector3 } from "three";
 import { useKeyboard } from "../hooks/useKeyboard";
 
-const JUMP_FORCE = 4;
-const SPEED = 6;
+const JUMP_FORCE = 6;
+const SPEED = 10;
 
 export const Player = () => {
   const { moveBackward, moveForward, moveRight, moveLeft, jump } =
